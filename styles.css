@@ -5,10 +5,30 @@ body {
 
 h1 {
     text-align: center;
+    padding: 20px;
+    border: 5px solid #ae85e4;
+    border-radius: 8px;
 }
+
+p {
+    color: #858ee4;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+button {
+    border-radius: 8px;
+    color: #ae85e4;
+}
+
 section {
     border: 5px solid #ae85e4;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+#hoverMsg {
+    display: block;
+    color: #858ee4;
 }
