@@ -4,11 +4,11 @@ const hoverBtn = document.getElementById('hoverBtn');
 const hoverMsg = document.getElementById('hoverMsg');
 
 hoverBtn.addEventListener('mouseenter', () => {
-    hoverMsg.textContent = "You're hovering over me!";
+    hoverMsg.textContent = "You're hovering over the button. WOW!";
 });
 
 hoverBtn.addEventListener('mouseleave', () => {
-    hoverMsg.textContent = "You have left the button!";
+    hoverMsg.textContent = "Oh no! You have left the button! awh :(";
 });
 
 //Keyboard Events!
@@ -17,7 +17,7 @@ const keyInput = document.getElementById('keyInput');
 const keyMsg = document.getElementById('keyMsg');
 
 keyInput.addEventListener('keydown', (e) => {
-    keyMsg.textContent = `You press: ${e.key}`;
+    keyMsg.textContent = `You pressed: ${e.key}`;
 });
 
 //Form
@@ -36,7 +36,7 @@ const focusInput = document.getElementById('focusInput');
 const focusMsg = document.getElementById('focusMsg');
 
 focusInput.addEventListener('focus', () => {
-    focusMsg.textContent = "Input is focused";
+    focusMsg.textContent = "Input is in focus";
 });
 
 focusInput.addEventListener('blur', () => {
