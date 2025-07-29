@@ -1,6 +1,7 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 25px;
+    background-color: #f3f0d7;
 }
 
 h1 {
@@ -17,8 +18,16 @@ p {
 }
 
 button {
+    border: none;
     border-radius: 8px;
-    color: #ae85e4;
+    background-color: #ae85e4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #858ee4;
 }
 
 section {
