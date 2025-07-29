@@ -19,3 +19,13 @@ const keyMsg = document.getElementById('keyMsg');
 keyInput.addEventListener('keydown', (e) => {
     keyMsg.textContent = `You press: ${e.key}`;
 });
+
+//Form
+
+const form = document.getElementById('simpleForm');
+const form = document.getElementById('formMsg');
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    formMsg.textContent = "Form submitted successfully!";
+});
