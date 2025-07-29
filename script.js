@@ -23,7 +23,7 @@ keyInput.addEventListener('keydown', (e) => {
 //Form
 
 const form = document.getElementById('simpleForm');
-const form = document.getElementById('formMsg');
+const formMsg = document.getElementById('formMsg');
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
