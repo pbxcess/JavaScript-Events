@@ -6,3 +6,7 @@ const hoverMsg = document.getElementById('hoverMsg');
 hoverBtn.addEventListener('mouseenter', () => {
     hoverMsg.textContent = "You're hovering over me!";
 });
+
+hoverBtn.addEventListener('mouseleave', () => {
+    hoverMsg.textContent = "You have left the button!";
+});
