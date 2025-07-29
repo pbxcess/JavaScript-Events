@@ -42,3 +42,14 @@ focusInput.addEventListener('focus', () => {
 focusInput.addEventListener('blur', () => {
     focusMsg.textContent = "Input is blurred";
 });
+
+//Delegation
+
+const container = document.getElementById('buttonContainer');
+const delegationMsg = document.getElementById('delegationMsg');
+
+container.addEventListener('click', (e) => {
+    if (e.target.tagName === "BUTTON") {
+        delegationMsg.textContent =  `You clicked: ${e.target.textContent}`;
+    }
+});
